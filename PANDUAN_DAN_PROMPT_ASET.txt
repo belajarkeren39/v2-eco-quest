@@ -1,0 +1,168 @@
+
+      
+        
+          
+            🛠️ Dokumen Produksi, Spesifikasi Aset & Prompt Siap Salin
+            Status Produk: Siap Dimainkan Penuh + Generator Paket .ZIP Mandiri (index.html + 8 PNG + Manifest Audio)
+          
+          
+            ✖ Tutup
+          
+        
+
+        
+          
+            
+              📦 Unduh Paket Proyek Lengkap (.ZIP)
+              Berisi index.html utuh (tanpa potongan), folder asset/*.png (8 sprite & latar bertransparansi asli), asset/audio/, serta dokumen panduan & prompt.
+            
+            
+              📥 Unduh File .ZIP Sekarang
+            
+          
+
+          
+            1. Lembar Acuan Visual (Visual Design Sheet)
+            
+              Judul & Identitas Orisinal: ECOQUEST: Petualangan Desa Hijau — suasana desa agraris tropis Nusantara yang hangat, asri, dan ramah teknologi hijau.
+              Palet Warna Utama: Hijau Daun Kebun (#16A34A), Kuning Surya (#F59E0B), Biru Mikrohidro (#0284C7), Coklat Tanah Subur (#78350F), Krem Terang (#FEFCE8), Garis Tepi Coklat Tua (#3E2723 - outline 3px).
+              Gaya & Kamera: 3D Stylized Toy-Render (clay lembut, kontur tipis) Top-Down 3/4 (kemiringan 35°), pencahayaan matahari pagi dari kiri-atas, bayangan kontak elips lembut di bawah kaki objek.
+            
+          
+
+          
+            2. Tabel Spesifikasi Aset Gambar (2× Ukuran Render)
+            
+              
+                
+                  
+                    Nama File
+                    Fungsi & Layer
+                    Ekspor (2×) & Render
+                    Rasio & Transparansi
+                    Hadap, Pivot & Hitbox
+                    Pose / Susunan Frame
+                  
+                
+                
+                  
+                    asset/cover_bg.png
+                    Latar Hero Layar Cover (Layer 0)
+                    Ekspor: 1920×1080 pxRender: 1600×900 px
+                    16:9 • Opaque PNG
+                    3/4 Top-Down • Pivot Tengah • Non-collision
+                    1 ilustrasi utuh area aman teks di kiri & tengah
+                  
+                  
+                    asset/tileset_village.png
+                    Rumah, Toko, Pos, Sumur, Petak Tanah (Layer 1)
+                    Ekspor: 1024×1024 pxRender sel: 82×82 px
+                    1:1 • Alpha PNG
+                    3/4 Top-Down • Pivot Tengah-Bawah • Hitbox bangunan 80% dasar
+                    Grid 4×4 (petak kering, cangkul, basah, bangunan)
+                  
+                  
+                    asset/char_bima.png
+                    Sprite Pemain Utama Bima (Layer 3)
+                    Ekspor: 512×512 px (sel 128×128)Render: 64×64 px
+                    1:1 • Alpha PNG
+                    4 Arah • Pivot (64,116) kaki • Hitbox elips 36×28 px
+                    Grid 4×4: Baris 1 Bawah, 2 Atas, 3 Kiri, 4 Kanan
+                  
+                  
+                    asset/char_piko.png
+                    Sprite Kucing Kebun Piko (Layer 3)
+                    Ekspor: 256×256 px (sel 128×128)Render: 48×48 px
+                    1:1 • Alpha PNG
+                    Depan/Samping • Pivot (64,112) • Non-blocking
+                    Grid 2×2: Duduk tenang, Jalan 1, Jalan 2, Lompat senang
+                  
+                  
+                    asset/npc_ratna.png
+                    Sprite NPC Toko Bu Ratna (Layer 2)
+                    Ekspor: 256×128 px (sel 128×128)Render: 64×64 px
+                    2:1 • Alpha PNG
+                    Hadap Bawah • Pivot (64,116) • Hitbox 44×36 px
+                    Grid 2×1: Diam tersenyum, Melambai ramah
+                  
+                  
+                    asset/npc_surya.png
+                    Sprite NPC Insinyur Pak Surya (Layer 2)
+                    Ekspor: 256×128 px (sel 128×128)Render: 64×64 px
+                    2:1 • Alpha PNG
+                    Hadap Bawah • Pivot (64,116) • Hitbox 44×36 px
+                    Grid 2×1: Memegang papan klip, Acung jempol
+                  
+                  
+                    asset/crops_stages.png
+                    Fase Pertumbuhan 4 Tanaman (Layer 2)
+                    Ekspor: 512×512 px (sel 128×128)Render: 64×64 px
+                    1:1 • Alpha PNG
+                    3/4 Top-Down • Pivot Tengah-Bawah • Hitbox petak 76×76 px
+                    Grid 4×4: Tomat, Jagung, Kentang, Padi (Benih s.d. Panen)
+                  
+                  
+                    asset/eco_tech_icons.png
+                    Instalasi Energi Alternatif Desa (Layer 2)
+                    Ekspor: 384×128 px (sel 128×128)Render: 64×64 px
+                    3:1 • Alpha PNG
+                    3/4 Top-Down • Pivot Tengah • Non-blocking
+                    Grid 3×1: Pompa Surya, Reaktor Biogas, Kincir Mikrohidro
+                  
+                
+              
+            
+          
+
+          
+            3. Prompt Gambar & Audio Mandiri Siap Salin
+            [Prompt 1 - asset/char_bima.png]: Buat sprite sheet karakter utama game gaya render 3D stylized sudut 3/4 buku cerita anak untuk murid kelas 5 SD. Bahasa keluaran: Bahasa Indonesia. TEKS WAJIB: Tidak ada teks di dalam gambar. Identitas: Bima, anak laki-laki usia 11 tahun, proporsi chibi 3 kepala, topi jerami berpin panel surya biru (#0284C7), rompi hijau daun (#16A34A), kaus krem (#FEFCE8), celana coklat (#78350F), sepatu bot kuning (#F59E0B). Grid 4x4 seragam (512x512 piksel, sel 128x128 piksel). Baris 1 hadap bawah, 2 atas, 3 kiri, 4 kanan. Kamera 3/4 top-down 35 derajat, garis tepi #3E2723 3px, latar transparan PNG murni. Larangan: Tanpa teks, tanpa watermark, tanpa blur, tanpa latar palsu.
+
+[Prompt 2 - asset/char_piko.png]: Sprite sheet kucing kebun Piko 2x2 (256x256 piksel, sel 128x128 piksel) gaya render 3D stylized (clay/toy, bayangan lembut, kontur tipis) sudut 3/4. Bahasa keluaran: Bahasa Indonesia. TEKS WAJIB: Tidak ada teks di dalam gambar. Bulu oranye-kuning (#F59E0B), telinga krem (#FEFCE8), syal daun hijau (#16A34A). Sel 1 duduk, Sel 2 jalan 1, Sel 3 jalan 2, Sel 4 melompat senang. Latar transparan PNG. Larangan: Tanpa teks, tanpa blur, tanpa watermark.
+
+[Prompt 3 - asset/npc_ratna.png]: Sprite sheet 2x1 (256x128 piksel, sel 128x128 piksel) gaya render 3D stylized (clay/toy, bayangan lembut, kontur tipis) sudut 3/4. Bahasa keluaran: Bahasa Indonesia. TEKS WAJIB: Tidak ada teks di dalam gambar. Bu Ratna memakai kebaya hijau (#16A34A) dan celemek kuning (#F59E0B) bermotif bunga matahari. Sel 1 memegang keranjang benih, Sel 2 melambai ramah. Latar transparan PNG.
+
+[Prompt 4 - asset/npc_surya.png]: Sprite sheet 2x1 (256x128 piksel, sel 128x128 piksel) gaya render 3D stylized (clay/toy, bayangan lembut, kontur tipis) sudut 3/4. Bahasa keluaran: Bahasa Indonesia. TEKS WAJIB: Tidak ada teks di dalam gambar. Pak Surya memakai helm putih berikon petir hijau (#16A34A), kemeja biru (#0284C7), rompi coklat (#78350F). Sel 1 memegang papan klip audit energi, Sel 2 acung jempol. Latar transparan PNG.
+
+[Prompt 5 s.d. 8 - cover_bg.png (1920x1080), tileset_village.png (1024x1024), crops_stages.png (512x512), eco_tech_icons.png (384x128)]: Gaya 2D top-down 3/4 cozy cel-shaded dengan garis tepi #3E2723 3px, palet #16A34A, #F59E0B, #0284C7, #78350F, #FEFCE8. Bahasa keluaran: Bahasa Indonesia. TEKS WAJIB: Tidak ada teks di dalam gambar. Tanpa blur, tanpa watermark, tanpa objek terpotong.
+
+[Prompt Audio Mandiri - asset/audio/*.mp3]:
+- menu_theme.mp3 ("Gerbang Petualangan"): 8-bit retro chiptune instrumental, 98 BPM, cheerful morning village melody on square/triangle waves, seamless loop 35s, no vocals.
+- gameplay_theme.mp3 ("Misi Melaju"): Chiptune farming theme, 120 BPM, energetic yet calm for reading, seamless loop 50s, no vocals.
+- click.mp3 ("Sentuh Mulai"): Soft 8-bit UI blip, 0.10s, square wave 587Hz, non-loop.
+- correct.mp3 ("Langkah Tepat"): Bright ascending 3-note 8-bit arpeggio (C5-E5-G5), 0.40s, non-loop.
+- wrong.mp3 ("Coba Lagi"): Gentle 2-note descending triangle tone, 0.40s, non-loop.
+- win.mp3 ("Misi Tuntas"): Upbeat chiptune victory fanfare, 2.5s, non-loop.
+- lose.mp3 ("Kesempatan Baru"): Friendly descending chiptune jingle, 1.8s, non-loop.
+          
+        
+      
+    
+
+=====================================================================
+PEMBARUAN v2 — ASET PNG BARU & TATA LETAK SPRITE
+=====================================================================
+Semua PNG digambar ulang lewat tools/gen_assets.py (Python + Pillow, supersampling 4x).
+Jalankan `python3 tools/gen_assets.py` dari folder proyek untuk membuat ulang folder asset/.
+Game kini benar-benar memakai PNG ini (versi lama hanya memakai cover). Jika PNG gagal dimuat,
+game otomatis kembali ke gambar vektor bawaan.
+
+asset/char_bima.png     512x512, grid 4x4, sel 128. Baris: bawah, atas, kiri, kanan. Kolom: 4 frame jalan.
+asset/char_piko.png     256x256, grid 2x2: duduk, jalan 1, jalan 2, melompat. Menghadap kiri (dicerminkan oleh kode).
+asset/npc_ratna.png     256x128: diam (bawa keranjang), melambai.
+asset/npc_surya.png     256x128: diam (papan klip), acung jempol.
+asset/crops_stages.png  512x512, grid 4x4. Baris: tomat, jagung, kentang, padi. Kolom: benih, tunas, tumbuh, panen.
+asset/eco_tech_icons.png 384x128: pompa surya, reaktor biogas, kincir mikrohidro.
+asset/tileset_village.png 1024x1024, grid 4x4, sel 256:
+   baris 1: tanah kering, tanah dicangkul, tanah basah, rumput (ubin berulang)
+   baris 2: rumah, toko, pos energi, sumur
+   baris 3: pohon, semak, bunga, batu
+   baris 4: jalan tanah (ubin berulang), air (ubin berulang), pagar, papan petunjuk
+asset/cover_bg.png      1920x1080, area kiri dibiarkan lebih tenang untuk panel teks.
+Tidak ada teks di dalam gambar; label digambar oleh game agar mudah diubah.
+v3: cover golden-hour 16:9 (tools/gen_cover.py), karakter 3D three.js, input nama, panggung terkunci 16:9.
+
+================ PEMBARUAN: MISI UTAMA ================
+Tujuan akhir permainan: pasang 3 teknologi hijau, selesaikan 6 pesanan warga, jawab benar 8 tantangan IPAS,
+dan panen 4 jenis tanaman. Jika semua tuntas, permainan selesai dan pop up pencapaian ditampilkan
+(bintang, statistik, lencana, kartu pencapaian PNG).
